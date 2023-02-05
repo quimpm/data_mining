@@ -24,7 +24,7 @@ Tried the same aproach as before. I executed the problem with less and more neur
 
 Also, due to the enormous state the Episodes were running super slow. 
 
-## Third iteration
+## Third iteration
 
 At this point I thought that the network arch was not enough to handle the enormus problem. So I developed a new class called ConvNN containing an implementation of a Convolutional network. Once implemented, i tried to execute it with the same result... (Also, some addaptations had to be done to at agent level to integrate the new model ConvNN)
 
@@ -32,11 +32,11 @@ In this case I used a convolutional network of 3 channels, so no more grayscale 
 
 A think to note is that the Episodes where a bit slow also... Maybe a bit more that with the Linear model.
 
-## Fourth iteration
+## Fourth iteration
 
 Finally, I tried to finetune the epsilon by setting more randomnes at the beggining(more exploration) and fine tunning this epsilon in terms of the scores. This was done becouse it was thought that the agent was falling into some Local Minima.
 
-## Final thoughts
+## Final thoughts
 
 After leaving varelly the whole Sunday running the program, I found that the agent was starting to learn with the last aproach appliying ConvNN and Epsioln fine tunning. But I ran Out of time! :(. In the notebook you can find the last scores after 509 episodes. Even seems the agent found a local minima. 
 
