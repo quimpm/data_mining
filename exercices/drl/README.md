@@ -1,4 +1,4 @@
-# Deep Reinforcement Learning - Car Race
+# Deep Reinforcement Learning - Car Race
 
 Even though I haven't achived to solve the problem. I will describe how I tryed to takle it.
 
